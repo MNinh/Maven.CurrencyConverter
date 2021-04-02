@@ -25,6 +25,8 @@ public enum CurrencyType {
     }
 
     public static CurrencyType getTypeOfCurrency(ConvertableCurrency currency) {
-        return null;
+        return currency.getCurrencyType();
     }
+
+
 }
